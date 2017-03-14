@@ -6,7 +6,7 @@ func isArmstrongNumber(n : Int) -> Bool {
     var result = false
     var digits : String = String(n)
     
-    for digit in digits {
+    for digit in digits.characters {
         var d = Int(digit)
         
     }
