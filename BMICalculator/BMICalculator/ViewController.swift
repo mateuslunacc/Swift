@@ -10,16 +10,24 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+    @IBOutlet weak var weightTextField: UITextField!
+    
+    @IBOutlet weak var heightTextField: UITextField!
+
+    @IBOutlet weak var resultLabel: UILabel!
+    
+    @IBAction func calculateButton(_ sender: Any) {
+        let weight = Double(self.weightTextField.text!)!
+        let height = Double(self.heightTextField.text!)!
+        
+        let bmi = weight/(height*height)
+        
+        
+        self.resultLabel.text = String(format: "%.2f", bmi)
+        
+        self.weightTextField.text = ""
+        self.heightTextField.text = ""
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
-
+    
 }
 
