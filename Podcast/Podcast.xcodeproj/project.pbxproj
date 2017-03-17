@@ -1,0 +1,322 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3FFB559B1E7B22B800868ADC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFB559A1E7B22B800868ADC /* AppDelegate.swift */; };
+		3FFB55A01E7B22B800868ADC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FFB559E1E7B22B800868ADC /* Main.storyboard */; };
+		3FFB55A21E7B22B800868ADC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FFB55A11E7B22B800868ADC /* Assets.xcassets */; };
+		3FFB55A51E7B22B800868ADC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FFB55A31E7B22B800868ADC /* LaunchScreen.storyboard */; };
+		3FFB55AE1E7B235700868ADC /* ListOfPodcastsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFB55AD1E7B235700868ADC /* ListOfPodcastsTableViewController.swift */; };
+		3FFB55B01E7B23AA00868ADC /* Podcast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFB55AF1E7B23AA00868ADC /* Podcast.swift */; };
+		3FFB55B21E7B275600868ADC /* PodcastTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFB55B11E7B275600868ADC /* PodcastTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3FFB55971E7B22B800868ADC /* Podcast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Podcast.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FFB559A1E7B22B800868ADC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3FFB559F1E7B22B800868ADC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3FFB55A11E7B22B800868ADC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3FFB55A41E7B22B800868ADC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3FFB55A61E7B22B800868ADC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FFB55AD1E7B235700868ADC /* ListOfPodcastsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListOfPodcastsTableViewController.swift; sourceTree = "<group>"; };
+		3FFB55AF1E7B23AA00868ADC /* Podcast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Podcast.swift; sourceTree = "<group>"; };
+		3FFB55B11E7B275600868ADC /* PodcastTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PodcastTableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3FFB55941E7B22B800868ADC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3FFB558E1E7B22B800868ADC = {
+			isa = PBXGroup;
+			children = (
+				3FFB55991E7B22B800868ADC /* Podcast */,
+				3FFB55981E7B22B800868ADC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3FFB55981E7B22B800868ADC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3FFB55971E7B22B800868ADC /* Podcast.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3FFB55991E7B22B800868ADC /* Podcast */ = {
+			isa = PBXGroup;
+			children = (
+				3FFB55AC1E7B22E600868ADC /* Supporting Files */,
+				3FFB559E1E7B22B800868ADC /* Main.storyboard */,
+				3FFB55AD1E7B235700868ADC /* ListOfPodcastsTableViewController.swift */,
+				3FFB55AF1E7B23AA00868ADC /* Podcast.swift */,
+				3FFB55B11E7B275600868ADC /* PodcastTableViewCell.swift */,
+				3FFB55A11E7B22B800868ADC /* Assets.xcassets */,
+			);
+			path = Podcast;
+			sourceTree = "<group>";
+		};
+		3FFB55AC1E7B22E600868ADC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3FFB559A1E7B22B800868ADC /* AppDelegate.swift */,
+				3FFB55A31E7B22B800868ADC /* LaunchScreen.storyboard */,
+				3FFB55A61E7B22B800868ADC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3FFB55961E7B22B800868ADC /* Podcast */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FFB55A91E7B22B800868ADC /* Build configuration list for PBXNativeTarget "Podcast" */;
+			buildPhases = (
+				3FFB55931E7B22B800868ADC /* Sources */,
+				3FFB55941E7B22B800868ADC /* Frameworks */,
+				3FFB55951E7B22B800868ADC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Podcast;
+			productName = Podcast;
+			productReference = 3FFB55971E7B22B800868ADC /* Podcast.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3FFB558F1E7B22B800868ADC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Mateus Luna";
+				TargetAttributes = {
+					3FFB55961E7B22B800868ADC = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 3FFB55921E7B22B800868ADC /* Build configuration list for PBXProject "Podcast" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3FFB558E1E7B22B800868ADC;
+			productRefGroup = 3FFB55981E7B22B800868ADC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3FFB55961E7B22B800868ADC /* Podcast */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3FFB55951E7B22B800868ADC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FFB55A51E7B22B800868ADC /* LaunchScreen.storyboard in Resources */,
+				3FFB55A21E7B22B800868ADC /* Assets.xcassets in Resources */,
+				3FFB55A01E7B22B800868ADC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3FFB55931E7B22B800868ADC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FFB559B1E7B22B800868ADC /* AppDelegate.swift in Sources */,
+				3FFB55AE1E7B235700868ADC /* ListOfPodcastsTableViewController.swift in Sources */,
+				3FFB55B21E7B275600868ADC /* PodcastTableViewCell.swift in Sources */,
+				3FFB55B01E7B23AA00868ADC /* Podcast.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3FFB559E1E7B22B800868ADC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FFB559F1E7B22B800868ADC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3FFB55A31E7B22B800868ADC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FFB55A41E7B22B800868ADC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3FFB55A71E7B22B800868ADC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3FFB55A81E7B22B800868ADC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3FFB55AA1E7B22B800868ADC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Podcast/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.luna.Podcast;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		3FFB55AB1E7B22B800868ADC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Podcast/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.luna.Podcast;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3FFB55921E7B22B800868ADC /* Build configuration list for PBXProject "Podcast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FFB55A71E7B22B800868ADC /* Debug */,
+				3FFB55A81E7B22B800868ADC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FFB55A91E7B22B800868ADC /* Build configuration list for PBXNativeTarget "Podcast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FFB55AA1E7B22B800868ADC /* Debug */,
+				3FFB55AB1E7B22B800868ADC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3FFB558F1E7B22B800868ADC /* Project object */;
+}
