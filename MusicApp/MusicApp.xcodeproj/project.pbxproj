@@ -15,6 +15,8 @@
 		3F3CCC121E7C67E90038B631 /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3CCC111E7C67E90038B631 /* Song.swift */; };
 		3F3CCC141E7C696F0038B631 /* SongTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3CCC131E7C696F0038B631 /* SongTableViewCell.swift */; };
 		3F3CCC161E7C7E700038B631 /* SongViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3CCC151E7C7E700038B631 /* SongViewController.swift */; };
+		3F3CCC181E8069200038B631 /* TopRatedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3CCC171E8069200038B631 /* TopRatedViewController.swift */; };
+		3F3CCC1A1E806CFD0038B631 /* ArtistDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3CCC191E806CFD0038B631 /* ArtistDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		3F3CCC111E7C67E90038B631 /* Song.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
 		3F3CCC131E7C696F0038B631 /* SongTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SongTableViewCell.swift; sourceTree = "<group>"; };
 		3F3CCC151E7C7E700038B631 /* SongViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SongViewController.swift; sourceTree = "<group>"; };
+		3F3CCC171E8069200038B631 /* TopRatedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopRatedViewController.swift; sourceTree = "<group>"; };
+		3F3CCC191E806CFD0038B631 /* ArtistDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArtistDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +66,8 @@
 			children = (
 				3F3CCC0E1E7C63700038B631 /* Supporting Files */,
 				3F3CCC001E7C62FD0038B631 /* Main.storyboard */,
+				3F3CCC191E806CFD0038B631 /* ArtistDetailViewController.swift */,
+				3F3CCC171E8069200038B631 /* TopRatedViewController.swift */,
 				3F3CCC151E7C7E700038B631 /* SongViewController.swift */,
 				3F3CCC0F1E7C67AA0038B631 /* ListOfSongsTableViewController.swift */,
 				3F3CCC111E7C67E90038B631 /* Song.swift */,
@@ -157,7 +163,9 @@
 				3F3CCC121E7C67E90038B631 /* Song.swift in Sources */,
 				3F3CCC161E7C7E700038B631 /* SongViewController.swift in Sources */,
 				3F3CCBFD1E7C62FD0038B631 /* AppDelegate.swift in Sources */,
+				3F3CCC1A1E806CFD0038B631 /* ArtistDetailViewController.swift in Sources */,
 				3F3CCC101E7C67AA0038B631 /* ListOfSongsTableViewController.swift in Sources */,
+				3F3CCC181E8069200038B631 /* TopRatedViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

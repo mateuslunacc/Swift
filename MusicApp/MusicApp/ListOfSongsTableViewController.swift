@@ -113,12 +113,9 @@ class ListOfSongsTableViewController: UITableViewController {
         if segue.identifier == "showSong" {
             if let songView = segue.destination as? SongViewController {
                 
-                //tableView.indexPathForSelectedRow
-                if let selected = sender as? SongTableViewCell {
-                    //songView.song = self.songs.index(after: self.so
-                }
-                
-                //songView.song = self.songs[indexPath.row]
+                let indexSong = tableView.indexPathForSelectedRow?.row
+                songView.song = songs[indexSong!]
+
             }
         }
     }

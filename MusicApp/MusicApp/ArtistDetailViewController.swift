@@ -1,39 +1,30 @@
-
 //
-//  SongViewController.swift
+//  ArtistDetailViewController.swift
 //  MusicApp
 //
-//  Created by Student on 3/17/17.
+//  Created by Student on 3/20/17.
 //  Copyright © 2017 Mateus Luna. All rights reserved.
 //
 
 import UIKit
 
-class SongViewController: UIViewController {
-    
-    @IBOutlet weak var albumImage: UIImageView!
-    
-    @IBOutlet weak var artistText: UILabel!
-    
-    @IBOutlet weak var albumText: UILabel!
-
-    @IBOutlet weak var songText: UILabel!
+class ArtistDetailViewController: UIViewController {
 
     var song: Song?
-
+    
+    @IBOutlet weak var artistImage: UIImageView!
+    
+    @IBOutlet weak var artistDetails: UITextView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
         if let song = self.song {
+            artistImage.image = UIImage(named: song.picture)
+            artistDetails.text = song.longDetails
             
-            self.albumImage.image = UIImage(named: song.picture)
-            self.artistText.text = song.artist
-            self.albumText.text = song.album
-            self.songText.text = song.name
         }
-
-        
+        // Do any additional setup after loading the view.
     }
 
     override func didReceiveMemoryWarning() {
@@ -42,15 +33,14 @@ class SongViewController: UIViewController {
     }
     
 
-    
+    /*
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         // Get the new view controller using segue.destinationViewController.
         // Pass the selected object to the new view controller.
-
     }
-    
+    */
 
 }
